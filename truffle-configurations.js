@@ -1,3 +1,5 @@
+// https://t.me/solidityafinance/1
+//www.github.com/devEmkiddo
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const fs = require('fs');
 const mnemonic = fs.readFileSync(".secret").toString().trim();
