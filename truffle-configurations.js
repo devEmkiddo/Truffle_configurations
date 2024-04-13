@@ -12,12 +12,11 @@ module.exports = {
       port: 8545,            // Standard BSC port (default: none)
       network_id: "*",       // Any network (default: none)
     },
-    testnet: {
+
+     testnet: {
       provider: () => new HDWalletProvider(mnemonic, `https://data-seed-prebsc-1-s1.bnbchain.org:8545`),
       network_id: 97,
       confirmations: 2,
-      // gas: 4500000,
-      // gasPrice: 10000000000,
       timeoutBlocks: 200,
       skipDryRun: true
     },
