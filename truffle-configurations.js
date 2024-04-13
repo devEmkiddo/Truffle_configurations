@@ -22,7 +22,7 @@ module.exports = {
     },
 
     sepolia: {
-      provider: () => new HDWalletProvider(mnemonic, "https://sepolia.infura.io/v3/606a1ed6b02144718fcf1d85b25e803f"),
+      provider: () => new HDWalletProvider(mnemonic, "https://sepolia.infura.io/v3/<Your Infura Api Key>"),
       network_id: 11155111,
       confirmations: 2,
       timeoutBlocks: 200,
@@ -60,7 +60,7 @@ module.exports = {
     },
 
     mainnet: {
-      provider: () => new HDWalletProvider(mnemonic, "https://mainnet.infura.io/v3/606a1ed6b02144718fcf1d85b25e803f"),
+      provider: () => new HDWalletProvider(mnemonic, "https://mainnet.infura.io/v3/<Your Infura Api Key>"),
       network_id: 1,
       confirmations:2,
       timeoutBlocks: 200,
